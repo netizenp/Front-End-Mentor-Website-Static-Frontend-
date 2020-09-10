@@ -1,0 +1,156 @@
+body{
+    background-color: rgb(250, 250, 250);;
+    padding: 0em;
+    margin: 0em;
+    font-family: Barlow, sans-serif;
+}
+#nav-logo{
+    padding: 0.8em 1em 1em 1em;
+    width: 14em;
+    margin-left: 3em;
+}
+#nav-bar{
+    display: flex;
+    flex-direction: row;
+    box-shadow: 0px 1px 0px rgba(62, 84, 163, 0.2);
+}
+#logo{
+    flex: 1;
+}
+#nav{
+    flex: 2;
+}
+#list{
+    list-style-type: none;
+}
+li {
+    display: inline-block;
+    padding: 0.2em 1em 1em 1em;
+}
+li a{
+    text-decoration: none;
+    color: black;
+    font-style: italic;
+    font-weight: bold;
+    font-size: 0.99em;
+}
+#home{
+    width: 95%;
+    margin-right: auto;
+    margin-left: auto;
+    margin-top: 4em;
+    display: flex;
+    flex-direction: row;
+}
+#home-desc{
+    flex: 3.5;
+    padding: 0em 2em 2em 2em;
+}
+#home-image{
+    flex: 3;
+    margin-bottom: auto;
+    margin-top: auto
+}
+#home-image img{
+    max-height: 25em;
+    max-width: 35em;
+}
+#home-desc h1{
+    color: rgb(62, 84, 163);
+    font-size: 3em;
+    font-family: Barlow, sans-serif;
+}
+#home-desc p{
+    color: black;
+    font-size: 1.2em;
+    font-family: Barlow, sans-serif;
+}
+#home-desc input{
+    background-color: rgb(237, 44, 73);
+    border: none;
+    padding: 1em 5em 1em 5em;
+    margin-top: 1em;
+    border-radius: 5em;
+    color: white;
+    font-size: 1em;
+}
+#working-type{
+    width: 85%;
+    margin-top: 5em;
+    margin-left: auto;
+    margin-right: auto;
+}
+#working-type-flex{
+    display: flex;
+    flex-direction: row;
+    gap: 4em;
+}
+#working-type h4{
+    text-align: center;
+    font-family: Heebo, sans-serif;
+    font-weight: bold;
+    margin-bottom: 5.5em;
+}
+#working-type-flex#challenges{
+    flex: 5;
+}
+#working-type-flex#design{
+    flex: 2;
+}
+#working-type-flex#solution{
+    flex: 2;
+}
+.works{
+    text-align: center;
+    font-size: 1.1em;
+    font-weight: 500;
+}
+.works svg,.works h3 {
+    margin-bottom: 1.5em;
+}
+.works h3, .works p{
+    font-family: Barlow, sans-serif;
+} 
+#sponsor{
+    text-align: center;
+    width: 85%;
+    margin-top: 8em;
+    margin-left: auto;
+    margin-right: auto;
+}
+#sponsor h4{
+    text-align: center;
+    font-family: Heebo, sans-serif;
+    font-weight: bold;
+    margin-bottom: 5.5em;
+}
+#sponsor-flex{
+    display: flex;
+    flex-direction: row;
+    gap: 4em;
+}
+.c_sponsor{
+    background-color: white;
+    text-align: center;
+}
+.c_sponsor img{
+    width: 12em;
+}
+#sizzy{
+    flex: 2;
+}
+#diversify-tech{
+    flex: 2;
+}
+#dracula{
+    flex: 2;
+}
+.c_sponsor input{
+    background-color: rgb(237, 44, 73);
+    border: none;
+    padding: 1em 5em 1em 5em;
+    margin-top: 1em;
+    border-radius: 5em;
+    color: white;
+    font-size: 1em;
+}
